@@ -1,0 +1,211 @@
+/* Estilos de Botões*/
+.liara-btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444; 
+    color: rgba(0, 0, 0, 0.80); 
+    border: 1px solid #999;  
+    border: none rgba(0, 0, 0, 0);  
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 10px; 
+}
+.liara-btn-sea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444; 
+    color: white; 
+    border: 1px solid #999;  
+    border: none rgba(0, 0, 0, 0);  
+    background-color: #00ced1;
+    text-decoration: none;
+    border-radius: 10px;    
+}
+.liara-btn-night {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: rgba(75, 75, 75, 1); 
+    color: white; 
+    border: 1px solid rgba(75, 75, 75, 1);  
+    border: none rgba(0, 0, 0, 0);  
+    background-color: #0f2b86;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.liara-btn-fire {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: rgba(75, 75, 75, 1); 
+    color: white; 
+    border: 1px solid rgba(75, 75, 75, 1);  
+    border: none rgba(0, 0, 0, 0);  
+    background-color: #cc0000;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.liara-btn-field {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: rgba(75, 75, 75, 1); 
+    color: white; 
+    border: 1px solid rgba(75, 75, 75, 1);  
+    border: none rgba(0, 0, 0, 0);  
+    background-color: #006f45;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.liara-btn-heaven {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: rgba(75, 75, 75, 1); 
+    color: white; 
+    border: 1px solid rgba(75, 75, 75, 1);  
+    border: none rgba(0, 0, 0, 0);  
+    background-color: rgba(135, 206, 250, 1);
+    text-decoration: none;
+    border-radius: 10px;
+}
+/* Botões Ativos */
+.liara-btn-active,
+.liara-btn:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+    border-color: #000;
+}
+/* Botões Desabilitados */
+.liara-btn[disabled],
+.liara-btn-disabled,
+.liara-btn-disabled:hover,
+.liara-btn-disabled:focus,
+.liara-btn-disabled:active {
+    border: none;
+    background-image: none;    
+    filter: alpha(opacity=40);    
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none;
+    pointer-events: none;
+}
+/* Esconder Botões */
+.liara-btn-hidden {
+    display: none;
+}
+/* Botões Personalizáveis */
+.liara-btn-sea,
+.liara-btn-selected,
+a.liara-btn-sea,
+a.liara-btn-selected {
+    background-color: rgba(0, 206, 209, 1);
+    color: #fff;
+}
+.liara-btn-night,
+.liara-btn-selected,
+a.liara-btn-night,
+a.liara-btn-selected {
+    background-color: rgba(15, 43, 134, 1);
+    color: #fff;
+}
+.liara-btn-fire,
+.liara-btn-selected,
+a.liara-btn-fire,
+a.liara-btn-selected {
+    background-color: rgba(204, 0, 0, 1);
+    color: #fff;
+}
+.liara-btn-field,
+.liara-btn-selected,
+a.liara-btn-field,
+a.liara-btn-selected {
+    background-color: rgba(0, 111, 69, 1);
+    color: #fff;
+}
+.liara-btn-heaven,
+.liara-btn-selected,
+a.liara-btn-heaven,
+a.liara-btn-selected {
+    background-color: rgba(135, 206, 250, 1);
+    color: #fff;
+}
+/* Tamanho dos Botões */
+.btn-small {
+    font-size: 70%;
+}
+.btn-medium {
+    font-size: 85%;
+}
+.btn-large {
+    font-size: 110%;
+}
+.btn-giant {
+    font-size: 125%;
+}
+/* Hovers */
+.liara-btn-hover,
+.liara-btn:hover,
+.liara-btn:focus {
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.liara-btn:focus {
+    outline: 0;
+}
+.liara-btn-sea-hover,
+.liara-btn-sea:hover,
+.liara-btn-sea:focus {
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.liara-btn-sea:focus {
+    outline: 0;
+}
+.liara-btn-night-hover,
+.liara-btn-night:hover,
+.liara-btn-night:focus {
+    background-image: linear-gradient(transparent, rgba(255,255,255, 0.05) 40%, rgba(255,255,255, 0.10));
+}
+.liara-btn-night:focus {
+    outline: 0;
+}
+.liara-btn-fire-hover,
+.liara-btn-fire:hover,
+.liara-btn-fire:focus {
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.liara-btn-fire:focus {
+    outline: 0;
+}
+.liara-btn-field-hover,
+.liara-btn-field:hover,
+.liara-btn-field:focus {
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.liara-btn-field:focus {
+    outline: 0;
+}
+.liara-btn-heaven-hover,
+.liara-btn-heaven:hover,
+.liara-btn-heaven:focus {
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.liara-btn-heaven:focus {
+    outline: 0;
+}
+/* Grupo de Botões */
+.liara-btn-group .liara-btn {
+    margin: 0;
+    border-radius: 0;
+    border-right: 1px solid #111; 
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.liara-btn-group .liara-btn:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.liara-bto-group .liara-bto:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-right: none;
+}

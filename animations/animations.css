@@ -1,0 +1,70 @@
+/* Animações */
+@keyframes effect-spin {
+    0% {
+        transform:rotatex(0);
+    }
+    50% {
+        transform:rotateX(180deg);
+    }
+    100% {
+        transform:rotateX(0);
+    }
+}
+.effect-spin:hover {
+    animation: effect-spin 1s;    
+}
+@keyframes effect-swing {
+    0% {
+        transform:rotate(0);
+    }
+    25% {
+        transform:rotate(10deg);
+    }
+    50% {
+        transform:rotate(0deg);
+    }
+    75% {
+        transform:rotate(-10deg);
+    }
+    100% {
+        transform:rotate(0deg);
+    }
+}
+.effect-swing:hover {
+    animation: effect-swing .7s;    
+}
+@keyframes effect-bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform:translateY(0);
+        transform:translateY(0);
+    }
+    40% {
+        -webkit-transform:translateY(-20px);
+        transform:translateY(-20px);
+    }
+    80% {
+        -webkit-transform:translateY(-10px);
+        transform:translateY(-10px);
+    }
+}
+.effect-bounce:hover {
+    animation: effect-bounce 1s;
+}
+.effect-skew:hover {
+    transform: skew(-10deg);   
+}
+/* Efeitos */
+.liara-zoom {
+	overflow: hidden;
+}
+.liara-zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.liara-zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
