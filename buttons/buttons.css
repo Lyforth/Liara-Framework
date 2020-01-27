@@ -11,7 +11,7 @@
     text-decoration: none;
     border-radius: 10px; 
 }
-.liara-btn-sea {
+.liara-btn-mechanical {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 100%;
     padding: 0.5em 1em;
@@ -19,7 +19,7 @@
     color: white; 
     border: 1px solid #999;  
     border: none rgba(0, 0, 0, 0);  
-    background-color: #00ced1;
+    background-color: #df7514;
     text-decoration: none;
     border-radius: 10px;    
 }
@@ -43,7 +43,7 @@
     color: white; 
     border: 1px solid rgba(75, 75, 75, 1);  
     border: none rgba(0, 0, 0, 0);  
-    background-color: #cc0000;
+    background-color: #ca3c3c;
     text-decoration: none;
     border-radius: 10px;
 }
@@ -55,7 +55,7 @@
     color: white; 
     border: 1px solid rgba(75, 75, 75, 1);  
     border: none rgba(0, 0, 0, 0);  
-    background-color: #006f45;
+    background-color: #1cb841;
     text-decoration: none;
     border-radius: 10px;
 }
@@ -67,7 +67,7 @@
     color: white; 
     border: 1px solid rgba(75, 75, 75, 1);  
     border: none rgba(0, 0, 0, 0);  
-    background-color: rgba(135, 206, 250, 1);
+    background-color: #42b8dd;
     text-decoration: none;
     border-radius: 10px;
 }
@@ -100,7 +100,7 @@
 .liara-btn-selected,
 a.liara-btn-sea,
 a.liara-btn-selected {
-    background-color: rgba(0, 206, 209, 1);
+    background-color: rgba(223, 117, 20, 1);
     color: #fff;
 }
 .liara-btn-night,
@@ -114,21 +114,21 @@ a.liara-btn-selected {
 .liara-btn-selected,
 a.liara-btn-fire,
 a.liara-btn-selected {
-    background-color: rgba(204, 0, 0, 1);
+    background-color: rgba(202, 60, 60, 1);
     color: #fff;
 }
 .liara-btn-field,
 .liara-btn-selected,
 a.liara-btn-field,
 a.liara-btn-selected {
-    background-color: rgba(0, 111, 69, 1);
+    background-color: rgba(28, 184, 65, 1);
     color: #fff;
 }
 .liara-btn-heaven,
 .liara-btn-selected,
 a.liara-btn-heaven,
 a.liara-btn-selected {
-    background-color: rgba(135, 206, 250, 1);
+    background-color: rgba(66, 184, 221, 1);
     color: #fff;
 }
 /* Tamanho dos Botões */
