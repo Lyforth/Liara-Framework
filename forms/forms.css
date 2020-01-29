@@ -1,0 +1,261 @@
+/* Formulário */
+.liara-form input[type="text"],
+.liara-form input[type="password"],
+.liara-form input[type="email"],
+.liara-form input[type="url"],
+.liara-form input[type="date"],
+.liara-form input[type="month"],
+.liara-form input[type="time"],
+.liara-form input[type="datetime"],
+.liara-form input[type="datetime-local"],
+.liara-form input[type="week"],
+.liara-form input[type="number"],
+.liara-form input[type="search"],
+.liara-form input[type="tel"],
+.liara-form input[type="color"],
+.liara-form select,
+.liara-form textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.liara-form input:not([type]) {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.liara-form input[type="color"] {
+    padding: 0.2em 0.5em;
+}
+.liara-form input[type="text"]:focus,
+.liara-form input[type="password"]:focus,
+.liara-form input[type="email"]:focus,
+.liara-form input[type="url"]:focus,
+.liara-form input[type="date"]:focus,
+.liara-form input[type="month"]:focus,
+.liara-form input[type="time"]:focus,
+.liara-form input[type="datetime"]:focus,
+.liara-form input[type="datetime-local"]:focus,
+.liara-form input[type="week"]:focus,
+.liara-form input[type="number"]:focus,
+.liara-form input[type="search"]:focus,
+.liara-form input[type="tel"]:focus,
+.liara-form input[type="color"]:focus,
+.liara-form select:focus,
+.liara-form textarea:focus {
+    outline: 0;
+    border-color: #129FEA;
+}
+.liara-form input:not([type]):focus {
+    outline: 0;
+    border-color: #129FEA;
+}
+.liara-form input[type="file"]:focus,
+.liara-form input[type="radio"]:focus,
+.liara-form input[type="checkbox"]:focus {
+    outline: thin solid #129FEA;
+    outline: 1px auto #129FEA;
+}
+.liara-form .liara-checkbox,
+.liara-form .liara-radio {
+    margin: 0.5em 0;
+    display: block;
+}
+.liara-form input[type="text"][disabled],
+.liara-form input[type="password"][disabled],
+.liara-form input[type="email"][disabled],
+.liara-form input[type="url"][disabled],
+.liara-form input[type="date"][disabled],
+.liara-form input[type="month"][disabled],
+.liara-form input[type="time"][disabled],
+.liara-form input[type="datetime"][disabled],
+.liara-form input[type="datetime-local"][disabled],
+.liara-form input[type="week"][disabled],
+.liara-form input[type="number"][disabled],
+.liara-form input[type="search"][disabled],
+.liara-form input[type="tel"][disabled],
+.liara-form input[type="color"][disabled],
+.liara-form select[disabled],
+.liara-form textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+.liara-form input:not([type])[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+.liara-form input[readonly],
+.liara-form select[readonly],
+.liara-form textarea[readonly] {
+    background-color: #eee; 
+    color: #777; 
+    border-color: #ccc;
+}
+.liara-form input:focus:invalid,
+.liara-form textarea:focus:invalid,
+.liara-form select:focus:invalid {
+    color: #b94a48;
+    border-color: #e9322d;
+}
+.liara-form input[type="file"]:focus:invalid:focus,
+.liara-form input[type="radio"]:focus:invalid:focus,
+.liara-form input[type="checkbox"]:focus:invalid:focus {
+    outline-color: #e9322d;
+}
+.liara-form select {   
+    height: 2.25em;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.liara-form select[multiple] {
+    height: auto;
+}
+.liara-form label {
+    margin: 0.5em 0 0.2em;
+}
+.liara-form fieldset {
+    margin: 0;
+    padding: 0.35em 0 0.75em;
+    border: 0;
+}
+.liara-form legend {
+    display: block;
+    width: 100%;
+    padding: 0.3em 0;
+    margin-bottom: 0.3em;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+}
+.liara-form-stacked input[type="text"],
+.liara-form-stacked input[type="password"],
+.liara-form-stacked input[type="email"],
+.liara-form-stacked input[type="url"],
+.liara-form-stacked input[type="date"],
+.liara-form-stacked input[type="month"],
+.liara-form-stacked input[type="time"],
+.liara-form-stacked input[type="datetime"],
+.liara-form-stacked input[type="datetime-local"],
+.liara-form-stacked input[type="week"],
+.liara-form-stacked input[type="number"],
+.liara-form-stacked input[type="search"],
+.liara-form-stacked input[type="tel"],
+.liara-form-stacked input[type="color"],
+.liara-form-stacked input[type="file"],
+.liara-form-stacked select,
+.liara-form-stacked label,
+.liara-form-stacked textarea {
+    display: block;
+    margin: 0.25em 0;
+}
+.liara-form-stacked input:not([type]) {
+    display: block;
+    margin: 0.25em 0;
+}
+.liara-form-aligned input,
+.liara-form-aligned textarea,
+.liara-form-aligned select,
+.liara-form-aligned .liara-help-inline,
+.liara-form-message-inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.liara-form-aligned textarea {
+    vertical-align: top;
+}
+.liara-form-aligned .liara-control-group {
+    margin-bottom: 0.5em;
+}
+.liara-form-aligned .liara-control-group label {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10em;
+    margin: 0 1em 0 0;
+}
+.liara-form-aligned .liara-controls {
+    margin: 1.5em 0 0 11em;
+}
+.liara-form input.liara-input-rounded,
+.liara-form .liara-input-rounded {
+    border-radius: 2em;
+    padding: 0.5em 1em;
+}
+.liara-form .liara-group fieldset {
+    margin-bottom: 10px;
+}
+.liara-form .liara-group input,
+.liara-form .liara-group textarea {
+    display: block;
+    padding: 10px;
+    margin: 0 0 -1px;
+    border-radius: 0;
+    position: relative;
+    top: -1px;
+}
+.liara-form .liara-group input:focus,
+.liara-form .liara-group textarea:focus {
+    z-index: 3;
+}
+.liara-form .liara-group input:first-child,
+.liara-form .liara-group textarea:first-child {
+    top: 1px;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+}
+.liara-form .liara-group input:first-child:last-child,
+.liara-form .liara-group textarea:first-child:last-child {
+    top: 1px;
+    border-radius: 4px;
+    margin: 0;
+}
+.liara-form .liara-group input:last-child,
+.liara-form .liara-group textarea:last-child {
+    top: -2px;
+    border-radius: 0 0 4px 4px;
+    margin: 0;
+}
+.liara-form .liara-group button {
+    margin: 0.35em 0;
+}
+.liara-form .liara-input-giant {
+    width: 100%;
+}
+.liara-form .liara-input-xlarge {
+    width: 75%;
+}
+.liara-form .liara-input-large {
+    width: 66%;
+}
+.liara-form .liara-input-medium {
+    width: 50%;
+}
+.liara-form .liara-input-small {
+    width: 33%;
+}
+.liara-form .liara-input-xsmall {
+    width: 25%;
+}
+.liara-form .liara-help-inline,
+.liara-form-message-inline {
+    display: inline-block;
+    padding-left: 0.3em;
+    color: #666;
+    vertical-align: middle;
+    font-size: 0.875em;
+}
+.liara-form-message {
+    display: block;
+    color: #666;
+    font-size: 0.875em;
+}
