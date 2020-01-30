@@ -3,3 +3,15 @@
 @import url(animations/animations.css);
 @import url(icons/icons.css);
 @import url(forms/forms.css);
+@import url(grids/grids.css);
+@import url(menus/menus.css);
+/* Imagem responsiva e ocultação de elementos */
+.hidden,
+[hidden] {
+    display: none !important;
+}
+.liara-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
