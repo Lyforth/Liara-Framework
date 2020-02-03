@@ -5,6 +5,7 @@
 @import url(forms/forms.css);
 @import url(grids/grids.css);
 @import url(menus/menus.css);
+@import url(tables/tables.css);
 /* Imagem responsiva e ocultação de elementos */
 .hidden,
 [hidden] {
